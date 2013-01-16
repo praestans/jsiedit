@@ -22,7 +22,7 @@ It is very convinient and effective. No more long text in editors, only small pi
 Example
 -------
 
-The project is very young. You could try online example here http://praestans.github.com/jsedit/lib/example1.html
+The project is very young. You could try online example here http://praestans.github.com/jsiedit/lib/example1.html
 It is based on the proof-of-concept script (bookmarklet) for habrahabr.ru http://praestans.github.com/jsiedit/lib/habr_bmk.js
 Step-by-step image guide is here http://praestans.github.com/jsiedit/lib/jsiedit_habr.jpg
 

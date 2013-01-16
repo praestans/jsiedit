@@ -1,7 +1,7 @@
 <html>
 <head>
-	<script type='text/javascript'>
-		jsiedit_fn_sample_habr_parse = function(elem, keep_format = false)
+	<script language='javascript'>
+		function jsiedit_fn_sample_habr_parse(elem, keep_format)
 {
 	var html = '';
 	var node;
@@ -10,6 +10,7 @@
 	var post = '';
 	var j;
 	var str = '';
+	keep_format = keep_format || false;
 
 	switch (elem.nodeName)
 	{
@@ -372,6 +373,8 @@ jsiedit_fn_sample_habr_editor_save = function()
 
 jsiedit_fn_mouseup = function(event)
 {
+	if (jsiedit.state == 'editor')
+		return;
 	var hd = true;
 	var sel = window.getSelection();	// Получим выделенный блок
 	if (!(typeof sel === 'undefined'))	// Проверим, что что-то было выделено

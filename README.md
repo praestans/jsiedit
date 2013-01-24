@@ -3,7 +3,7 @@ jsiedit
 
 Javascript In-Place Editor for Different Markup Languages
 
-Full description in Russian language available here http://habrahabr.ru/post/16604/
+Full description in Russian language available here http://habrahabr.ru/post/166043/
 
 
 Purpose
